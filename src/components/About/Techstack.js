@@ -40,7 +40,7 @@ function Techstack() {
         <div className="tech-icons-text">Python</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Java} alt="haskell" />
+        <img src={Python} alt="haskell" />
         <div className="tech-icons-text">Machine Learning</div>
       </Col>
 

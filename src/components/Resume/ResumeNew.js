@@ -3,6 +3,11 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
+import { Document, Page, pdfjs } from "react-pdf/dist/esm/entry.webpack";
+
+// import { Document, Page } from "react-pdf";
+// import { pdfjs } from "react-pdf";
+
 // import { Document, Page, pdfjs } from "react-pdf";
 // import 'react-pdf/dist/Page/TextLayer.css';
 // import 'react-pdf/dist/Page/AnnotationLayer.css';
