@@ -3,7 +3,7 @@
   <a href="https://portfolio-abhyanshshri.vercel.app/" target="_blank">Abhyansh.tech</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img.png" />
+  <img alt="Demo" src="./Images/portfolio.png" />
 </div>
 
 <br/>
