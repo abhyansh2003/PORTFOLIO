@@ -5,7 +5,7 @@ import Particle from "../Particle";
 
 import decisionTreeImg from "../../Assets/Projects/decision-tree-design.jpg";
 
-import bitsOfCode from "../../Assets/Projects/blog.png";
+// import bitsOfCode from "../../Assets/Projects/blog.png";
 import weatherImg from "../../Assets/Projects/weatherImg.jpg"
 import CustomerSeg from "../../Assets/Projects/CustomerSegmentation.png"
 import SuperstoreImg from "../../Assets/Projects/Superstore.png"
