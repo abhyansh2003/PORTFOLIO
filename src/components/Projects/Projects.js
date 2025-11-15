@@ -59,6 +59,17 @@ function Projects() {
             <ProjectCard
               imgPath={SuperstoreImg}
               isBlog={false}
+              title="Whatapp Chat Analyzer"
+              description="This project is based on Streamlit & you've to just upload .txt file on this web application & you can get full analysis based on your file."
+              ghLink="https://github.com/abhyansh2003/EDA-Supermarket-DA"
+              demoLink="https://abhyansh2003-wca-app-n0nsen.streamlit.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={SuperstoreImg}
+              isBlog={false}
               title="Supermarket Data Analysis (Streamlit-Python)"
               description="This project involves analyzing supermarket data with a data of above 100000+ users with 1000+ products using Python. Download the data from my GitHub and start the analysis."
               ghLink="https://github.com/abhyansh2003/EDA-Supermarket-DA"
