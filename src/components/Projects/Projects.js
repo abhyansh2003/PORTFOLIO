@@ -11,6 +11,7 @@ import CustomerSeg from "../../Assets/Projects/CustomerSegmentation.png"
 import SuperstoreImg from "../../Assets/Projects/Superstore.png"
 import OlympicsImg from "../../Assets/Projects/Olympics.jpg"
 import Hospital from "../../Assets/Projects/HospitalImg.png"
+import wca from "../../Assets/Projects/wca.png"
 
 function Projects() {
   return (
@@ -57,7 +58,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={SuperstoreImg}
+              imgPath={wca}
               isBlog={false}
               title="Whatapp Chat Analyzer"
               description="This project is based on Streamlit & you've to just upload .txt file on this web application & you can get full analysis based on your file."
