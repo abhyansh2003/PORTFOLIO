@@ -12,6 +12,7 @@ import SuperstoreImg from "../../Assets/Projects/Superstore.png"
 import OlympicsImg from "../../Assets/Projects/Olympics.jpg"
 import Hospital from "../../Assets/Projects/HospitalImg.png"
 import wca from "../../Assets/Projects/wca.png"
+import mlPipeline from "../../Assets/Projects/mlPipeline.jpg"
 
 function Projects() {
   return (
@@ -25,6 +26,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mlPipeline}
+              isBlog={false}
+              title="Machine Learning Pipeline"
+              description="We created a ML Pipeline project which tells us which ML algorithms is best on a particular dataset."
+              ghLink="https://github.com/abhyansh2003/ML_Pipeline_Project"
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={decisionTreeImg}
