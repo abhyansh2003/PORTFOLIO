@@ -13,6 +13,7 @@ import OlympicsImg from "../../Assets/Projects/Olympics.jpg"
 import Hospital from "../../Assets/Projects/HospitalImg.png"
 import wca from "../../Assets/Projects/wca.png"
 import mlPipeline from "../../Assets/Projects/mlPipeline.jpg"
+import healthcare from "../../Assets/Projects/healthcare.png"
 
 function Projects() {
   return (
@@ -26,6 +27,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={healthcare}
+              isBlog={false}
+              title="Healthcare-Readmission-Analysis"
+              description="ANN-based healthcare readmission prediction using TensorFlow/Keras with regularization and advanced training strategies."
+              ghLink="https://github.com/abhyansh2003/ANN-Healthcare-Readmission-Analysis"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
