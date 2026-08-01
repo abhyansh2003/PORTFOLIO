@@ -9,10 +9,10 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi everyone! I’m <span className="purple">Abhyansh Shrivastava</span>{" "}
-            from <span className="purple">Orai, India</span>.
+            from <span className="purple">Noida, India</span>.
             <br />
-            I’m currently looking for a Job opportunity in {" "}
-            <span className="purple">Data Science & Analytics.</span>
+            Result-driven **Associate Data Scientist** with 2+ years of experience in designing, building, and deploying end-to-end Machine Learning and Deep Learning solutions. Passionate about feature engineering, predictive modeling, and transforming raw data into actionable business outcomes. {" "}
+            {/* <span className="purple">Data Science & Analytics.</span> */}
             <br />I hold an B.Tech in{" "}
             <span className="purple">Computer Science & Engineering</span> from{" "}
             <span className="purple">Jaypee University of Engineering & Technology, Guna</span>.
