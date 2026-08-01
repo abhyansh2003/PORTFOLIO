@@ -21,7 +21,7 @@ function ResumeNew() {
     setWidth(window.innerWidth);
   }, []);
 
-  const pdf = "Abhyansh_Shrivastava_Associate_Data_Scientist_Resume.pdf"; // ✅ from public folder
+  const pdf = "Abhyansh_Shrivastava_Resume.pdf"; // ✅ from public folder
 
   return (
     <div>
